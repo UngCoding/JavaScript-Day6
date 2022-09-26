@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="EUC-KR">
+    <title>Title</title>
+</head>
+<body>
+  <input id="name" type="text">
+  <input type="button" value="당신의 이름은" onclick=javascript:printName()>
+  <script>
+    function printName() {
+      var name =document.getElementById("name");
+      alert(name.value + "님 환영합니다");
+    }
+  </script>
+</body>
+</html>

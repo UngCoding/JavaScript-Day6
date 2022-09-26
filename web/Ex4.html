@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="EUC-KR">
+    <title>Title</title>
+</head>
+<body>
+  <p>자바스크립트에서 객체(element, 요소)로 찾는 방법은 5가지입니다.</p>
+  <p>다음 중 그 방법이 아닌 것을 고르시오.</p>
+  <ol>
+    <li id="n1"> getElementById() </li>
+    <li id="n2"> getElementsByClassName() </li>
+    <li id="n3"> getElementsByTagName() </li>
+    <li id="n4"> findElementBySeletor() </li>
+    <li id="n5"> querySelector() </li>
+    <li id="n6"> querySelectorAll() </li>
+  </ol>
+  <input type="button" value="정답확인" onclick="javascript:answer()">
+
+<script>
+  function answer() {
+    var answer = document.getElementById('n4')
+    answer.style.color = 'red';
+  }
+</script>
+</body>
+</html>
